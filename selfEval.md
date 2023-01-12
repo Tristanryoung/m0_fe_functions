@@ -2,7 +2,7 @@
 
 - Reflect on your time management and awareness of where you spend time. Is this a strength or area you are working on? What support do you need in this area? And/or, what tips do you have to share with your classmates in this area?
 
--1. This is definitely an area that I am working on. I think I need support as to when to ask for help, when to go to the group, and when to consult online sources. I often find myself looking helplessly online and that contributes to unproductive struggle.
+1. This is definitely an area that I am working on. I think I need support as to when to ask for help, when to go to the group, and when to consult online sources. I often find myself looking helplessly online and that contributes to unproductive struggle.
 
 - How would you explain to a 5 year old what a function is?
 
