@@ -23,7 +23,7 @@ function reportPayRange(companyName, maxPay, minPay) {
     var minPay = 70000;
     var payRange = (maxPay-minPay);
     console.log(`"The Company ${companyName} has a pay range of ${payRange} dollars"`)
-    return sum; 
+    return sum;   
 }
 reportPayRange("Amazon", 100000, 70000);
 
@@ -34,24 +34,24 @@ reportPayRange("Amazon", 100000, 70000);
 
 // 4: Write a function that satifies the following interaction pattern:
 
-// function checkStock (quantity, ingredientName) {
-//     if (quantity >=1 && quantity <=3) {
-//         console.log(`"${ingredientName} - running LOW"`)
-//     } else if (quantity >=4) {
-//         console.log (`"${ingredientName} is stocked"`)
-//     } else {
-//         console.log(`"${ingredientName} - OUT of stock!"`)
-//     }
-// }
+function checkStock (quantity, ingredientName) {
+    if (quantity >=1 && quantity <=3) {
+        console.log(`"${ingredientName} - running LOW"`)
+    } else if (quantity >=4) {
+        console.log (`"${ingredientName} is stocked"`)
+    } else {
+        console.log(`"${ingredientName} - OUT of stock!"`)
+    }
+}
 
-// checkStock(4, "Coffee");
-// // => "Coffee is stocked"
+checkStock(4, "Coffee");
+// => "Coffee is stocked"
 
-// checkStock(3, "Tortillas");
-// // => "Tortillas - running LOW"
+checkStock(3, "Tortillas");
+// => "Tortillas - running LOW"
 
-// checkStock(0, "Cheese");
-// // => "Cheese - OUT of stock!"
+checkStock(0, "Cheese");
+// => "Cheese - OUT of stock!"
 
-// checkStock(1, "Salsa");
-// // => "Salsa - running LOW"
+checkStock(1, "Salsa");
+// => "Salsa - running LOW"
