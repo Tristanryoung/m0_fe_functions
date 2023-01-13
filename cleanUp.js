@@ -20,12 +20,12 @@ nameQuestion();
 
 // // EX 2:
 function addThreeNums(first, second, third) {
-var sum = first + second + third;
-console.log(sum);
+  var sum = first + second + third;
+  console.log(sum);
 }
-
 addThreeNums(1, 2, 3);
 addThreeNums(4, 2, 7);
+
 
 // This codeblock was missing a semi-colon after third, and the final curly bracket was out of position i.e not flush with flush and var
 // these changes were performed to ensure proper formatting of the codeblock and as well as proper syntax with the var sum statement
@@ -54,7 +54,7 @@ function average(num1, num2) {
   console.log(`"The average is: ${avg}."`)
 }
 
-average();
+average(10, 30);
 //  This function first had a formatting error as the code block first curly should follow the function on the same line
 // Within the code block, variables and console log should all be indented with the first letter flush with one another
 // Within the console log, quotes were needed to properly run the sentence "The average is", there quotes are inside the back tics due to interpolation of the avg variable
