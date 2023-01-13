@@ -22,7 +22,7 @@ function reportPayRange(companyName, maxPay, minPay) {
     var maxPay = 100000;
     var minPay = 70000;
     var payRange = (maxPay-minPay);
-    console.log(`"The Company ${companyName} has a pay range of ${payRange} dollars"`)
+    console.log(`"The Company ${companyName} has a pay range of ${payRange} dollars"`);
     return sum;   
 }
 reportPayRange("Amazon", 100000, 70000);
